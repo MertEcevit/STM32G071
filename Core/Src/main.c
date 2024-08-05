@@ -16,7 +16,7 @@
 
 void delay(volatile uint32_t count) {
     while (count--) {
-        // Boş döngü ile gecikme
+       
     }
 }
 
