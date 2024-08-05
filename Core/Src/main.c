@@ -12,7 +12,7 @@
 #define PIN0            (1U << 0)
 #define LED_PIN         PIN0
 
-#define DELAY_COUNT     8000000  // 500ms gecikme için yaklaşık değer
+#define DELAY_COUNT     8000000  
 
 void delay(volatile uint32_t count) {
     while (count--) {
